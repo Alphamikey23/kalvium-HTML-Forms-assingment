@@ -7,3 +7,37 @@ Challenge 4: When the form is submitted, get the user's response and add the sam
 -->
 
 <!-- your code goes below this comment -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTML Forms</title>
+
+    </head>
+    <body>
+        <form action="mailto:jaykumarryan@outlook.com" method="post">
+            <h1> Student Enquiry Form</h1>
+            <p> Enter your name </p>
+            <input type="text" name="name">
+            <p> Select your gender </p>
+            <input type="radio" name="gender" value="male"> Male 
+            <input type="radio" name="gender" value="female">Female<br>
+            <p>Select the subject you like</p>
+            <input type="checkbox" name="subjects" value="mysql"> mysql
+            <input type="checkbox" name="subjects" value="datascience"> Data Science
+            <input type="checkbox" name="subjects" value="machinelearning"> Machine Learning
+            <input type="checkbox" name="subjects" value="artificialintelligence"> Artificial Intelligence
+            <br>
+            <p> Would you like to subscribe to our newsletter?</p>
+            <select name="subcription">
+                <option value="yes">Yes</option>
+                <option value="no"> No</option>
+                <option value="maybe"> Maybe</option>
+                <option value="askmelater"> Ask me later</option>
+            </select>
+            <br>
+            <br>
+            <input type="submit" value="submit">
+
+        </form>
+    </body>
+</html>
